@@ -22,10 +22,10 @@ const App = () => {
             <Route path = '/' element = { <Home /> }  />
             <Route path='/ai' element={ <Layout/> }>
                 <Route index element = {<Dashboard/> }  />
-                <Route path='Write-article' element = {<WriteArticle/> }  />
+                <Route path='write-article' element = {<WriteArticle/> }  />
                 <Route path='blog-titles' element = {<BlogTitle/> }  />
-                <Route path='Generate-images' element = {<GenerateImages/> }  />
-                <Route path='remove-backgound' element = {<RemoveBackground/> }  />
+                <Route path='generate-images' element = {<GenerateImages/> }  />
+                <Route path='remove-background' element = {<RemoveBackground/> }  />
                 <Route path='remove-object' element = {<RemoveObject/> }  />
                 <Route path='review-resume' element = {<ReviewResume/> }  />
                 <Route path='Community' element = {<Community/> }  />

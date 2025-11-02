@@ -9,8 +9,8 @@ const Hero = () => {
     const navigate = useNavigate()
 
   return (
-    <div className='px-4 sm:px-20 relative inline-flex flex-col w-full justify-center
-    bg-[url(../public/gradientBackground.png)] bg-cover bg-no-repeat min-h-screen'>
+    <div className='px-2 sm:px-10 relative inline-flex flex-col w-full justify-center
+    bg-[url(../public/gradientBackground.png)] bg-cover bg-no-repeat py-40 pb-25'>
 
         <div className={'text-center mb-6'}>
             <h1 className={'text-3xl sm:text-5xl md:text-6xl ' +

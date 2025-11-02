@@ -61,9 +61,11 @@ export const AiToolsData = [
         description: 'Get your resume reviewed by AI to improve your chances of landing your dream job.',
         Icon: FileText,
         bg: { from: '#12B7AC', to: '#08B6CE' },
-        path: '/ai/review-resume'
+                path: '/ai/review-resume'
     }
 ]
+
+
 
 export const dummyTestimonialData = [
     {
@@ -88,6 +90,9 @@ export const dummyTestimonialData = [
         rating: 4,
     },
 ]
+
+
+
 
 
 export const dummyCreationData = [
@@ -125,6 +130,10 @@ export const dummyCreationData = [
         "updated_at": "2025-07-01T11:07:51.312Z"
     }
 ]
+
+
+
+
 
 
 export const dummyPublishedCreationData = [
