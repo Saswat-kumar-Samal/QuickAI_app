@@ -23,8 +23,6 @@ const Navbar = () => {
                 </button>
             )
         }
-        /* this is we do for if use is already loged in then show the userbutton otherwise show the div
-        that we have created */
     </div>
   );
 };
