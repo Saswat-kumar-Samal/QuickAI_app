@@ -34,7 +34,7 @@ const SideBar = ({sidebar, setSidebar}) => {
             <img src={user.imageUrl} alt="" className={'w-14 rounded-full mx-auto'}/>
             <h1 className='mt-2 text-center' >{user.fullName}</h1>
 
-            <div className='w-[90%] ml-2 mt-10 px-2'>
+            <div className='w-[92%] ml-2 mt-10 px-2'>
                 {
                     navItems.map(( {to, label, Icon} ) => (
                         <NavLink key={to} to={to} end={to === '/ai'}
